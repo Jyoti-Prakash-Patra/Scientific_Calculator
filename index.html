@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Calculator.css" />
+    <title>Scientific Calculator - By Jyoti</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="calculator-wrapper">
+
+            <!-- Calculator section -->
+            <div class="calculator">
+
+                <!-- Display screen -->
+                <input type="text" id="inputBox" placeholder="0" readonly aria-label="Calculator display" />
+
+                <div class="buttons-grid">
+
+                    <!-- Scientific calculator buttons -->
+                    <button class="button scientific">sin</button>
+                    <button class="button scientific">cos</button>
+                    <button class="button scientific">tan</button>
+                    <button class="button scientific">log</button>
+                    <button class="button scientific">ln</button>
+
+                    <button class="button scientific">π</button>
+                    <button class="button scientific">√</button>
+                    <button class="button scientific">^</button>
+                    <button class="button scientific">(</button>
+                    <button class="button scientific">)</button>
+
+
+                    <!-- Basic calculator operations -->
+                    <button class="button operator">AC</button>
+                    <button class="button operator">DEL</button>
+                    <button class="button operator">%</button>
+                    <button class="button operator">/</button>
+                    <button class="button operator">*</button>
+
+
+                    <!-- Number buttons and operators -->
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
+                    <button class="button operator">-</button>
+                    <button class="button">00</button>
+
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
+                    <button class="button operator">+</button>
+                    <button class="button">0</button>
+
+                    <button class="button">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
+                    <button class="button">.</button>
+                    <button class="button equalBtn">=</button>
+                </div>
+            </div>
+
+            <!-- Calculation history -->
+            <div class="history-panel">
+                <h3>History</h3>
+                <ul id="historyList"></ul>
+                <button id="clearHistoryBtn">
+                    Clear History
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="Calculator.js"></script>
+
+</body>
+
+</html>
