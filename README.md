@@ -144,4 +144,4 @@ You can:
 
 <br>
 
-> Feel free to use, modify, and explore this project for learning and personal purposes.
+🔹 Feel free to use, modify, and explore this project for learning and personal purposes.
