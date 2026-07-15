@@ -2,6 +2,9 @@
 
 A responsive **Scientific Calculator** built using **HTML, CSS, and JavaScript**. It supports basic and scientific calculations, keyboard shortcuts, calculation history, and local storage for a better user experience.
 
+## 🌐 Live Demo
+🔗 [View Live Project](https://calcnova-web.netlify.app/)
+
 ## 🚀 Features
 
 - Basic arithmetic operations
